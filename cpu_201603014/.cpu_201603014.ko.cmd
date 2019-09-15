@@ -1,0 +1,1 @@
+cmd_/src/cpu_201603014/cpu_201603014.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /src/cpu_201603014/cpu_201603014.ko /src/cpu_201603014/cpu_201603014.o /src/cpu_201603014/cpu_201603014.mod.o ;  true
