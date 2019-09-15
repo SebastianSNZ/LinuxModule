@@ -1,0 +1,1 @@
+cmd_/src/lkm_example/lkm_example.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /src/lkm_example/lkm_example.ko /src/lkm_example/lkm_example.o /src/lkm_example/lkm_example.mod.o ;  true
